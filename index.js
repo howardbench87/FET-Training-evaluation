@@ -24,7 +24,7 @@ const View = (() => {
             // even-card makes the direction of the gradient right
             // odd-card makes the direction of the gradient left
             tmp += `
-                <div class="movie-card ${movie.id % 2 !== 0 ? "even-card" : "odd-card"}" id="${movie.id}">
+                <div class="movie-card" id="${movie.id}">
                     <img src="${movie.imgUrl}" alt="movie image">
                     <div class="movie-title">Movie: ${movie.title}</div>
                     <div class="movie-info">Info: ${movie.updateInfo}</div>    
