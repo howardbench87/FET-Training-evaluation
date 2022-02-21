@@ -21,8 +21,6 @@ const View = (() => {
         let tmp = "";
 
         arr.forEach((movie) => {
-            // even-card makes the direction of the gradient right
-            // odd-card makes the direction of the gradient left
             tmp += `
                 <div class="movie-card" id="${movie.id}">
                     <img src="${movie.imgUrl}" alt="movie image">
