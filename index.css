@@ -24,11 +24,8 @@ body {
 }
 
 
-.even-card {
-    background: linear-gradient(to left, black, green);
-}
-.odd-card {
-    background: linear-gradient(to right, black, green);
+.movie-card {
+    background: linear-gradient(to right, green,black );
 }
 
 .movie-img {
